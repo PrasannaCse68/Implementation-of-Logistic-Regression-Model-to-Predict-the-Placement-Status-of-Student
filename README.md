@@ -8,10 +8,7 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+import the standard libraries. Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively. Import LabelEncoder and encode the dataset. Import LogisticRegression from sklearn and apply the model on the dataset. Predict the values of array. Calculate the accuracy, confusion and classification report by importing the required modules from sklearn. Apply new unknown value
 
 ## Program:
 ```
@@ -79,43 +76,74 @@ Original data(first five columns:
 
 
 
+
+
 Data after dropping unwanted columns(first five):
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/78a0dcd3-b4d0-4d8a-9e7e-3ae1964b6630)
 
 
+
+
 Checking the presence of null values:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/92302f12-84d5-4c30-b38c-898c039c9d3e)
 
 
-Checking the presence of duplicated values
+
+
+Checking the presence of duplicated values:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/b2b904ba-df8d-4465-a0fa-508b1e4fe110)
 
 
 
-Data after Encoding
+Data after Encoding:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/6962ef2b-f41a-4224-9d08-b11c795959d1)
 
 
+
+
 X DATA:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/02c8cc57-1f41-4304-80b0-30f71757704c)
 
 
 
 Y DATA:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/845e6ca6-383a-4531-bd71-7d1cf1f49e10)
 
 
+
+
+
 Predicted Values:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/fa9056d7-b036-4a80-a74f-7530f02d428d)
 
 
 
 Accuracy Score:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/3f9e3653-4984-41f4-b012-ea39539cd812)
 
 
 
+
+
 Confusion Matrix:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/0b63e562-9f23-4961-8b9d-ffefe1f0e150)
 
 
@@ -126,7 +154,11 @@ Classification Report:
 
 
 
+
+
 Predicting output from Regression Model:
+
+
 ![image](https://github.com/PrasannaCse68/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/127935950/fc037c5f-584f-470a-82db-92e8eedf7a89)
 
 
